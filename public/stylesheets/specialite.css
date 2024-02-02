@@ -1,0 +1,38 @@
+.competence-container {
+    position: relative;
+}
+.competence-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.compétence {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 260px;
+}
+
+.compétence h3 {
+    font-size: 70px;
+    color: #7E2553;
+    margin: 0;
+}
+.compétence p {
+    font-size: 20px;
+    color: #FFF5E0;
+}
+.design {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.front-end {
+    width: 100%;
+}
+
+.front-end-text, .design-text {
+    width: 568px;
+}

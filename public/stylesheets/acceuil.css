@@ -28,22 +28,34 @@
 	margin: 0;
 	text-align: left;
 }
-.nom h1 span {
+#nom-famille {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 65px;
 	color: #1f8a70;
 	letter-spacing: 15px;
+	opacity: 0;
+	display: inline-block;
+	transform: translateY(100%);
 }
+#prenom {
+	visibility: hidden;
+	opacity: 0;
+	display: inline-block;
+	transform: translateY(100%);
+}
+
 
 .biographie {
 	width: 700px;
+	overflow: hidden;
 }
 
-.biographie p {
+#bio-p {
 	margin: 0;
 	font-size: 26px;
 	color: #fff;
+	transform: translateY(100%);
 }
 
 .reseaux-sociax-main-container {
@@ -53,13 +65,15 @@
 	margin-top: 150px;
 }
 .ligne-reseau {
-	width: 35%;
+	width: 0;
 	height: 1px;
 	background: rgba(192, 192, 192, 0.27);
+	opacity: 0;
 }
 .reseau-sociaux-container {
 	display: flex;
 	justify-content: center;
+	opacity: 0;
 }
 
 .reseaux-icon {
@@ -117,7 +131,6 @@
 	object-fit: cover;
 	--offset-y: 40px;
 	object-position: center calc(50% + var(--offset-y));
-	transform: translate(-10%, -10%);
 }
 
 @media screen and (max-width: 980px) {
