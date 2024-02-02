@@ -1,11 +1,11 @@
 .competence-container {
     position: relative;
 }
-.competence-container img {
+/* .competence-container img {
     width: 100%;
     height: 100%;
     position: absolute;
-}
+} */
 .compétence {
     height: 100vh;
     display: flex;
@@ -35,4 +35,13 @@
 
 .front-end-text, .design-text {
     width: 568px;
+}
+
+#front-h3, #design-h3{
+    transform: translateY(100%);
+    opacity: 0;
+}
+#design-p,#front-p {
+    transform: translateY(50%);
+    opacity: 0;
 }
