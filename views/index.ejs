@@ -24,6 +24,7 @@
 			href="/stylesheets/style.css"
 		/>
 		<link rel="stylesheet" href="/stylesheets/acceuil.css">
+		<link rel="stylesheet" href="/stylesheets/compétence.css">
 
 		<!-- Inclure GSAP -->
 		<script src="/lib/gsap/dist/gsap.min.js"></script>
@@ -32,7 +33,7 @@
 	<body>
 		<%- include('components/header.ejs') -%>
 		<%- include('components/acceuil.ejs') -%>
-		
+		<%- include('components/compétence.ejs') -%>
 	</body>
 
 	<script
@@ -42,6 +43,10 @@
 	<script
 		type="module"
 		src="/javascripts/animations/animationAcceuil.js"
+	></script>
+	<script
+		type="module"
+		src="/javascripts/animations/animationCompetence.js"
 	></script>
 	<script
 		type="module"

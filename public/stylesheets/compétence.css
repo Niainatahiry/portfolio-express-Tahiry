@@ -1,0 +1,136 @@
+.competence-container {
+    position: relative;
+}
+.competence-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.compétence {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 260px;
+}
+
+.compétence h3 {
+    font-size: 70px;
+    color: #7E2553;
+    margin: 0;
+}
+.compétence p {
+    font-size: 20px;
+    color: #FFF5E0;
+}
+.design {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.front-end {
+    width: 100%;
+}
+
+.front-end-text, .design-text {
+    width: 568px;
+}
+
+
+
+.section {
+    background: #232D3F;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.liste-competence {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.one-skill {
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+}
+
+.nom-competence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.progress-bar-container {
+    width: 450px;
+    height: fit-content;
+    background: #030637;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.my-progress {
+    height: 7px;
+    background: #FAEF5D;
+    border-radius: 7px;
+}
+#html-css {
+    width: 80%;
+}
+#javascript {
+    width: 60%;
+}
+#php {
+    width: 55%;
+}
+#UI-UX-design {
+    width: 20%;
+}
+#angular {
+    width: 60%;
+}
+
+#react {
+    width: 60%;
+}
+#django {
+    width: 40%;
+}
+
+
+
+.section-mes-compétences {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px;
+}
+
+.avant-section-ligne {
+    width: 90px;
+    height: 4px;
+    background: #FFF5E0 ;
+    border-radius: 2px
+}
+
+.section-mes-compétences span{
+    color: #FFF5E0;
+    display: inline-block;
+    font-size: 60px;
+    margin-left: 55px;
+}
+
+@media screen and (max-width: 980px) {
+    .section {
+        height: fit-content;
+    }
+}

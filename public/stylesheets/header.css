@@ -40,6 +40,8 @@ header img{
     right: 20px;
     opacity: 0;
     overflow: hidden;
+    border-radius: 5px;
+    border: 1px solid #030637;
 }
 
 .close-icone {
