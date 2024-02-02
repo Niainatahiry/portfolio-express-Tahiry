@@ -1,12 +1,13 @@
 .mes-projets-container {
     background: #FFF5E0;
     color: #141E46;
-    height: 100vh;
+    height: 200vh;
 }
 
 
-.Angular-projet {
+.Angular-projet, .django-project {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -73,4 +74,17 @@
     color: #141E46;
     font-size: 24px;
     letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .Angular-projet, .django-project {
+        display: flex;
+        flex-direction: column;
+    }
+    .photo-projet-container {
+        width: 800px;
+        height: fit-content;
+    }
+
 }
