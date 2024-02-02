@@ -27,8 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // ScrollTrigger for ".design" section
     ScrollTrigger.create({
         trigger: ".design", // Specify the trigger element for the design section
-        start: "bottom 80%", // Adjust the start position as needed
+        start: "bottom 85%", // Adjust the start position as needed
         once: true, // Animation happens only once
+        markers: true, //
         onEnter: function() {
             designTimeline.play();
         }
