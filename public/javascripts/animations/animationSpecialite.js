@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const frontendTimeline = gsap.timeline({ paused: true });
     const designTimeline = gsap.timeline({ paused: true });
 
-    frontendTimeline.to(fronth3, { opacity: 1, y: '0', duration: 0.5, ease: "power1.inOut" });
-    frontendTimeline.to(frontp, { opacity: 1, y: '0', duration: 1, ease: "power1.inOut" },'-=0.3');
-    designTimeline.to(designh3, { opacity: 1, y: '0', duration: 0.5, ease: "power1.inOut" });
-    designTimeline.to(designp, { opacity: 1, y: '0', duration: 1, ease: "power1.inOut" },'-=0.3');
+    frontendTimeline.to(fronth3, { opacity: 1, y: '0', duration: 0.5, ease: Power1 });
+    frontendTimeline.to(frontp, { opacity: 1, y: '0', duration: 1, ease: Power1}, '-=0.3');
+    designTimeline.to(designh3, { opacity: 1, y: '0', duration: 0.5, ease: Power1 });
+    designTimeline.to(designp, { opacity: 1, y: '0', duration: 1, ease: Power1 }, '-=0.3');
 
     gsap.registerPlugin(ScrollTrigger);
 

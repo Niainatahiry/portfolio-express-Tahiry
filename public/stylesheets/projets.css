@@ -1,0 +1,76 @@
+.mes-projets-container {
+    background: #FFF5E0;
+    color: #141E46;
+    height: 100vh;
+}
+
+
+.Angular-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section-photo-projet {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.decorative-photo {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+
+.carré {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #141E46;
+    top: -55px;
+    left: -55px;
+}
+.carré2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background: #C70039;
+    bottom: -55px;
+    right: -55px;
+    z-index: 1;
+}
+
+.photo-projet-container {
+    width: 650px;
+    height: fit-content;
+}
+
+.photo-projet-container img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.section-descritption-projet {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description-container {
+    width: 580px;
+}
+
+
+.description-container h2 {
+    color: #C70039;
+    font-size: 35px;
+}
+.description-container p {
+    color: #141E46;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
