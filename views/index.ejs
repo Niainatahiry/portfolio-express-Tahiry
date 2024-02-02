@@ -23,19 +23,28 @@
 			rel="stylesheet"
 			href="/stylesheets/style.css"
 		/>
+		<link rel="stylesheet" href="/stylesheets/acceuil.css">
 
 		<!-- Inclure GSAP -->
 		<script src="/lib/gsap/dist/gsap.min.js"></script>
 		<!-- Inclure votre script d'animation -->
 	</head>
 	<body>
-		<%- include('./components/header.ejs') -%>
-
-		<%- include('') -%>
+		<%- include('components/header.ejs') -%>
+		<%- include('components/acceuil.ejs') -%>
+		
 	</body>
 
 	<script
 		type="module"
 		src="/javascripts/animations/animationheader.js"
+	></script>
+	<script
+		type="module"
+		src="/javascripts/animations/animationAcceuil.js"
+	></script>
+	<script
+		type="module"
+		src="/javascripts/functions/linkFunction.js"
 	></script>
 </html>
